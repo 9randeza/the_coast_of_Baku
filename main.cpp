@@ -31,6 +31,13 @@ TEST(Test, Test4) {
 	ASSERT_EQ(out, Algorithm(v));
 	
 }
+
+TEST(Test, Test5) {
+	
+	std::vector<int> v;
+		ASSERT_TRUE(v.empty());
+	
+}
 	
 int main(int argc, char** argv){
 	testing::InitGoogleTest(&argc, argv);
